@@ -8,8 +8,7 @@ end
 
 @everywhere include("../../Rabi.jl")
 
-@everywhere const PATH = "d:/results/Rabi/deadcat/f5/"
-# @everywhere const PATH = ""
+@everywhere const PATH = "_deadcat/f5/"
 
 function Compute()
     R = 100.0

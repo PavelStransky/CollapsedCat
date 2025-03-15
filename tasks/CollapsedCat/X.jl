@@ -1,6 +1,6 @@
 include("../../Rabi.jl")
 pyplot(size=(1200, 1200))
-const PATH = "d:/results/Rabi/deadcat/f3/"
+const PATH = "_deadcat/f3/"
 # const PATH = ""
 
 R = 200.0

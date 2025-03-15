@@ -2,7 +2,7 @@ using Distributed
 
 @everywhere WORKERS = 1
 include("../../Calculation.jl")
-@everywhere const PATH = "d:/results/Rabi/deadcat/multiple/"
+@everywhere const PATH = "_deadcat/multiple/"
 @everywhere pyplot(size = (1200, 1200))
 
 function WignerMultiple(systems, tss; xs=LinRange(-1, 1, 101), ys=nothing, clim=(-0.2, 0.2), title="", kwargs...)

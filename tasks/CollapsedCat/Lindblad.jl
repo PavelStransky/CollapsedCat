@@ -5,7 +5,7 @@ pyplot(size=(1000, 1000))
 
 BLAS.set_num_threads(1)     # To prevent the Stack Overflow error
 
-const PATH = "d:/results/Rabi/deadcat/"
+const PATH = "_deadcat/"
 
 R = 50.0
 μ = 0.132 / R

@@ -2,7 +2,7 @@ using Distributed
 @everywhere const WORKERS = 16
 include("../../Calculation.jl")
 pyplot(size=(1200, 1200))
-@everywhere const PATH = "d:/results/Rabi/deadcat/f4/"
+@everywhere const PATH = "_deadcat/f4/"
 R = 100.0
 rabi = Rabi(R=R, λ=0.75, δ=0.5)
 μs = 10 .^ LinRange(-4, log10(0.6), 1001)

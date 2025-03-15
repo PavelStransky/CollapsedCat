@@ -1,6 +1,6 @@
 using Test
 
-const PATH = "d:/results/rabi/tmp/"
+const PATH = "_tmp/"
 
 include("../Rabi.jl")
 

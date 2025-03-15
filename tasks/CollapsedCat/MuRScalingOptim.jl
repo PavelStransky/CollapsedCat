@@ -1,7 +1,7 @@
 using Optim
 const WORKERS = 1
 include("../../Calculation.jl")
-const PATH = "d:/results/Rabi/deadcat/minmax/"
+const PATH = "_deadcat/minmax/"
 
 function Export(fname, xs, ys, zs)
     open(fname, "w") do io

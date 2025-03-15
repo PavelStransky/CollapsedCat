@@ -1,8 +1,7 @@
 using Distributed
 @everywhere const WORKERS = 16
 include("../../Calculation.jl")
-@everywhere const PATH = "d:/results/Rabi/deadcat/minmax/"
-# @everywhere const PATH = ""
+@everywhere const PATH = "_deadcat/minmax/"
 
 function FindExtremes(result, k; margin=1)
     mins = []

@@ -2,7 +2,7 @@ using Distributed
 
 @everywhere WORKERS = 8
 include("../../Calculation.jl")
-@everywhere const PATH = "d:/results/Rabi/deadcat/f2/"
+@everywhere const PATH = "_deadcat/f2/"
 @everywhere pyplot(size = (1200, 1200))
 
 function Run()
