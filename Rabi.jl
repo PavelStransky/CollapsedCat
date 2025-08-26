@@ -8,6 +8,7 @@ include("Quantum.jl")
 pyplot()
 
 " Rabi (Extended Dicke) type "
+" λ is in units of the critical coupling "
 struct Rabi <: QuantumSystem
     N
     j
